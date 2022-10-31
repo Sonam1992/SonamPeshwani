@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Sonam Peshwani</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"></div>
+            <p>Data Analyst</p>
+            <h1>Hi, I'm<span>Sonam</span><br> From India</h1>
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    <!--------------------------------------------------------------------------about------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                    <img src="user-info-icon.png">
+                </div>
+                <div class="about-col-2"></div>
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a Business Analyst from
+                    Bengaluru India, worked in Dubai, United Arab Emirates.
+                    I have total 7 years of expereince,5 years with finance domain and 2 years relavant 
+                    expereince in Analytics.I possess a variety of education.background and experience.have done a bachelor’s degree in Commerce
+                    and Done Master of business administration(MBA) with finance stream.
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('expereince')">Expereince</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>Data Analyst</span><br>interprets data sets</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>Data Scientist </span><br>data, analyze</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "expereince">
+                        <ul>
+                            <li><span>2022</span><br>Data Analyst at Sobha Construction</li>
+                            <li><span>2020-2022</span><br>Senior Associte at Amazon</li>
+                            <li><span>2017-2020 </span><br>Senior Associate at State Street</li>
+                            <li><span>2015-2017 </span><br>Process Associate at Bank Of New York</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>2012</span><br>B.COM</li>
+                            <li><span>2014</span><br>MBA</li>
+                        </ul>
+                    </div>
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------Services----------------------------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data Analyst</h2>
+                <p> Responsible for analyzing data using statistical techniques,
+                        implementing and maintaining databases, gathering data from primary and secondary sources, 
+                        identifying, analyzing and interpreting trends from the data.</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Development</h2>
+                    <p> Our job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate,
+                        and also responsible for the website's performance and capacity..</p>
+                        <a href="#">learn more</a>
+                </div>
+                    <div>
+                        <i class="fas fa-app-store"></i>
+                        <h2>Data Scientist</h2>
+                        <p> Our job is a professional who collects large amounts of data using analytical, statistical, 
+                            and programmable skills. It is their responsibility to use data to develop 
+                            solutions tailored to meet the organisation's unique needs.</p>
+                            <a href="#">learn more</a>
+                    </div>
+        
+
+            </div>
+
+        </div>
+    </div>
+<!-----------------------------------------------------Portfolio------------------------------------------------------------->
+<div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Web Development</h3><br>
+                    <p> Website was built in PHP and
+                        hosted in EC2 servers with Data Repositories were built in
+                        AWS RDS. Connections were created to upload the date from
+                        the PHP Website to RDS Database. In total more than 80
+                        templets were created across Planning, Costing, Quality,
+                        Health and Safety, Others.We were able to introduce
+                        Automation and Standardisation to a whole new sector from
+                        scratch. Data was standardised, captured, cleaned,
+                        Visualised and produced to the end user. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Dashboarding</h3><br>
+                    <p> Power BI Dashboard was created
+                        containing more than 300+ visuals capturing all the process
+                        under different departments. Slicers were provided to slice
+                        the data Business Department and Project Wise to provide
+                        more personalised to the power users.
+                        Automation and Standardisation to a whole new sector from
+                        scratch. Data was standardised, captured, cleaned,
+                        Visualised and produced to the end user. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Standarization and Automation </h3><br>
+                    <p> As the data was always available on the central redshift clusters, 
+                        standardising the reporting parameters would reduce the efforts of BA and
+                        BIE in creating the reports and process owners in finding the required data.
+                        There were many options for data visualisation, Quick Sight, Tableau and Power BI were the main contenders. After careful considerations, 
+                        Power BI was selected as the visualisation tool. Complex Power BI report was built with more than 800 visuals, 
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+</div>
+
+<!--___________________________Contect_______________________________> -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Peshwani.sonam1992@gmail.com</p>
+                <p><i class="fas fa-phone-sqaue-alt"></i>8319399655</p>
+                <div class="social-icon">
+
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Resume_Sonam 31.10.22 (1).docx" Download class="btn btn2">Download CV</a>
+                <a href="Demo1.pbix"  Download class="btn btn2">Project on Power BI 1</a>
+                <a href="Demo2.pbix" Download class="btn btn2">Project on  Power BI 2</a>
+                <a href="https://smartchairs.in/" Download class="btn btn2">Smart Chair Company Website</a>
+            </div>
+            <div class="contact-right">
+                <from>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class = "btn btn2">submit</button>
+                </from>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+            }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            }   
+
+    </script>
+    <!-----------------------------------------About---------------------------------------------------------------------->
+</body>
+</html>
